@@ -1,0 +1,84 @@
+body{
+    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+label{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins";
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 5px;
+}
+input[type=text],input[type=password],input[type=email]{
+    width: 100%;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Poppins";
+    margin-bottom: 10px;
+}
+.error{
+    font-family: "Poppins";
+    font-size: .8rem;
+    color: red;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+    margin-top: 15px;
+}
+.remember{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.remember label{
+    margin: 0;
+    margin-left: 5px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.lupa{
+    font-family: "Poppins";
+    margin-top: 10px;
+}

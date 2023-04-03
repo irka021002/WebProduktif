@@ -1,0 +1,154 @@
+body{
+    background-color: #ededed !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    background-color: #ededed;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-family: "Poppins";
+    margin-bottom: 10px;
+    margin-top: 100px;
+    background-color: #f4f4f4;
+}
+input:focus{
+    outline: none;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    border: none !important;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+    margin-top: 15px;
+}
+
+.edit-container{
+    display: flex
+}
+
+.edit-container a{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.edit-container button{
+    background-color: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.nav-menu{
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-decoration: none;
+    background-color: none;
+    border: none;
+}
+
+.artikel-container{
+    width: 50%;
+    font-family: "Poppins";
+    padding: 10px;
+}
+
+hr{
+    margin-top: 15px;
+}
+
+.judul-mark{
+    background: linear-gradient(180deg,transparent 0,transparent 70%,#B7FFA3 0,#82FF8D);
+}
+
+.komentar-mark{
+    background: linear-gradient(180deg,transparent 0,transparent 70%,#FCE120 0,#EBFF17);
+}
+
+.tulisan{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.artikel-container a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+}
+
+.artikel-container h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #454b4e;
+}
+.username{
+    font-size: 1rem;
+}
+
+.komentar-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.input-komentar{
+    background: none !important;
+    padding: 0 !important;
+}
+.input-komentar textarea{
+    background-color: #fff;
+    width: 100%;
+}
+
+.komentar-kirim{
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .artikel-container{
+        width: 90%;
+    }
+    .komentar-container{
+        width: 90%;
+    }
+    nav{
+        width: 90%;
+    }
+}
